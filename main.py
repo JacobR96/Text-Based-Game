@@ -321,25 +321,51 @@
 # How to plug in random numbers from another file example!!!
 # print(random_coder.results)
 
-row1 = ["🙂.1","🙂.2","🙂.3"]
-row2 = ["🙂1.1","🙂1.2","🙂1.3"]
-row3 = ["🙂2.1","🙂2.2","🙂2.3"]
-map = [row1, row2, row3]
-print(f"{row1}\n{row2}\n{row3}")
+# row1 = ["🙂.1","🙂.2","🙂.3"]
+# row2 = ["🙂1.1","🙂1.2","🙂1.3"]
+# row3 = ["🙂2.1","🙂2.2","🙂2.3"]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
 
-position = input("Where do you want to put the treasure?")
-one = int(position[0])
-two = int(position[1])
+# position = input("Where do you want to put the treasure?")
+# one = int(position[0])
+# two = int(position[1])
 
-results = map[one - 1]
-results[two - 1] = "X"
-# first_row0 = results[0]
+# results = map[one - 1]
+# results[two - 1] = "X"
+# # first_row0 = results[0]
 
 
 
+
+# # print(results)
+# # print(results[1])
+# # print(results2)
 
 # print(results)
-# print(results[1])
-# print(results2)
 
-print(results)
+
+
+#Loops 
+
+# friends = ["jack", "jill", "paul","anthony"]
+
+# for friend in friends:
+#     print(friend)
+#     print(friend + " is a freind")
+# print(friends[0])
+
+students_heights = ["150","123","453","145","145","456","245","123"]
+
+# for students_height in students_heights:
+#     print(students_height)
+
+for n in range(0, len(students_heights)):
+    students_heights[n] = int(students_heights[n])
+print(students_heights)
+
+the_sum = int(students_heights[0] + students_heights[1] + students_heights[2] + students_heights[3] + students_heights[4] + students_heights[5] + students_heights[6] + students_heights[7] )
+
+the_average =int(the_sum / 8) 
+
+print(the_average)
