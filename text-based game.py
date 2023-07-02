@@ -63,11 +63,11 @@
 
 
 # Useing the max method you can sort to the highest of each data type, exceppted booleans. 
-class_scores = [98,110,15,1,34,26,33,346,0.1,56,3445,91,234,60,553]# it even sorts floats / deciamals
-array2 = [1, 2, 3, 4, 5]
-array3 = ['apple', 'banana', 'cherry', 'date','zack','paul']
-array5 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-array6 = list(range(1, 1001))
+# class_scores = [98,110,15,1,34,26,33,346,0.1,56,3445,91,234,60,553]# it even sorts floats / deciamals
+# array2 = [1, 2, 3, 4, 5]
+# array3 = ['apple', 'banana', 'cherry', 'date','zack','paul']
+# array5 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# array6 = list(range(1, 1001))
 
 # print(len(class_scores))
 # class_scores.sort()
@@ -88,3 +88,29 @@ array6 = list(range(1, 1001))
 # print(min(array5))
 # print(min(array6))
 
+# for number in range(0, 1100, 100):
+#     print(number)
+
+
+# total = 0 
+# for number in range(2, 101, 2):
+#     total += number
+#     print(total)
+
+
+# divided by 3 = fizz
+
+# divided by 5 = buzz
+
+# divided by 3 and 5 = fizz buzz
+
+
+for number in range(1, 101):
+    if number % 3 == 0  and number % 5 == 0 :
+        print("Fizz Buzz")
+    elif number % 3 == 0 :
+        print("fizz")
+    elif number % 5 == 0 :
+        print("buzz")
+    else: 
+        print(number)
