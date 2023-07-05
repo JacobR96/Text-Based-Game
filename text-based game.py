@@ -117,48 +117,43 @@ import random
 
 
 
-print("Welcome to the Password generator")
-nr_count = int(input("How many Characters would you like your password to be ? 8 , 10 or 12"))
+# print("Welcome to the Password generator")
+# nr_count = int(input("How many Characters would you like your password to be ? 8 , 10 or 12"))
 
-alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-number = ['0','1','2','3','4','5','6','7','8','9']
-symbols = ['!', '#', '$','%','&','(',')','*','+']
+# alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+# number = ['0','1','2','3','4','5','6','7','8','9']
+# symbols = ['!', '#', '$','%','&','(',')','*','+']
 
-random_alp1 = random.choice(alphabet)
-random_number1 = random.choice(number)
-random_symbol1 = random.choice(symbols)
-random_alp2 = random.choice(alphabet)
-random_number2 = random.choice(number)
-random_symbol2 = random.choice(symbols)
-random_alp3 = random.choice(alphabet)
-random_number3 = random.choice(number)
-random_symbol3 = random.choice(symbols)
-random_alp4 = random.choice(alphabet)
-random_number4 = random.choice(number)
-random_symbol4 = random.choice(symbols)
-
-
-
-
-
-eight = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}")
-
-ten = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}{random_symbol3}{random_alp4}")
-
-twelve = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}{random_symbol3}{random_alp4}{random_number4}{random_symbol4}")
-
-# print(eight)
-# print(ten)
-# print(twelve)
-# make the first question ask it the user wants 8 , 10, or 12 char in the passwords
-if nr_count == 8:
-    print(eight)
-elif nr_count == 10:
-    print(ten)
-elif nr_count == 12:
-    print(twelve)
+# random_alp1 = random.choice(alphabet)
+# random_number1 = random.choice(number)
+# random_symbol1 = random.choice(symbols)
+# random_alp2 = random.choice(alphabet)
+# random_number2 = random.choice(number)
+# random_symbol2 = random.choice(symbols)
+# random_alp3 = random.choice(alphabet)
+# random_number3 = random.choice(number)
+# random_symbol3 = random.choice(symbols)
+# random_alp4 = random.choice(alphabet)
+# random_number4 = random.choice(number)
+# random_symbol4 = random.choice(symbols)
 
 
 
 
 
+# eight = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}")
+
+# ten = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}{random_symbol3}{random_alp4}")
+
+# twelve = (f"{random_alp1}{random_number1}{random_symbol1}{random_alp2}{random_number2}{random_symbol2}{random_alp3}{random_number3}{random_symbol3}{random_alp4}{random_number4}{random_symbol4}")
+
+# # print(eight)
+# # print(ten)
+# # print(twelve)
+# # make the first question ask it the user wants 8 , 10, or 12 char in the passwords
+# if nr_count == 8:
+#     print(eight)
+# elif nr_count == 10:
+#     print(ten)
+# elif nr_count == 12:
+#     print(twelve)
